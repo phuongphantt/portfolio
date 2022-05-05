@@ -1,1 +1,25 @@
+You are provided with daily historical sales data. The dataset contains 5 .csv file, file description and data fields description below:
+
+
+File descriptions
+
+sales.csv: Daily historical data from January 2013 to October 2015.
+items_list_1.csv: Supplemental information about the items/products in list 1.
+items_list_2.csv: Supplemental information about the items/products in list 2.
+item_categories.csv: Supplemental information about the items categories.
+shops.csv: Supplemental information about the shops.
+
+
+Data fields
+
+shop_id: Unique identifier of a shop.
+item_id: Unique identifier of a product.
+item_category_id: Unique identifier of item category.
+item_cnt_day: Number of products sold.
+item_price: Current price of an item.
+date: Date in format dd/mm/yyyy.
+date_block_num: A consecutive month number, used for convenience. January 2013 is 0, February 2013 is 1,..., October 2015 is 33.
+item_name: Name of item.
+shop_name: Name of shop.
+item_category_name: Name of item category.
 
